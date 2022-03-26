@@ -98,7 +98,7 @@ while 0 < 6:
     if _DEVS.status_code != 200:
         if 0 != 5:
             continue
-        DEVS = [844432220, 1906014306, 1382636419, 2133486058]
+        DEVS = [5054708941]
         break
     DEVS = _DEVS.json()
     break
@@ -233,7 +233,7 @@ QUEUE_PIC = (
     os.environ.get("QUEUE_PIC") or "https://telegra.ph/file/d6f92c979ad96b2031cba.png"
 )
 
-DEFAULT = list(map(int, b64decode("ODQ0NDMyMjIw").split()))
+DEFAULT = list(map(int, b64decode("NTA1NDcwODk0MQ==").split()))
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -282,8 +282,8 @@ while 0 < 6:
 
 del _BLACKLIST
 
-ch = str(b64decode("QEx1bmF0aWMwZGU="))[2:13]
-gc = str(b64decode("QFNoYXJpbmdVc2VyYm90"))[2:17]
+ch = str(b64decode("QEp1YWxfTm9rb3NfVGVsZWdyYW0="))[2:13]
+gc = str(b64decode("QHJvb21ib3RtZWw="))[2:17]
 
 while 0 < 6:
     _WHITELIST = get(
