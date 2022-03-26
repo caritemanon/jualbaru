@@ -24,7 +24,7 @@ from userbot.utils import edit_delete, edit_or_reply, man_cmd
 
 while 0 < 6:
     _GCAST_BLACKLIST = get(
-        "https://raw.githubusercontent.com/mrismanaziz/Reforestation/master/blacklistgcast.json"
+        "https://raw.githubusercontent.com/rommelnita/blacklist/master/blacklistgcast.json"
     )
     if _GCAST_BLACKLIST.status_code != 200:
         if 0 != 5:
